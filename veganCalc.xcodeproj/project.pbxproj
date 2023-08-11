@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8C80F62A864A7900C941F4 /* veganCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C80F52A864A7900C941F4 /* veganCalcApp.swift */; };
+		3F8C80F82A864A7900C941F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C80F72A864A7900C941F4 /* ContentView.swift */; };
+		3F8C80FA2A864A7A00C941F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C80F92A864A7A00C941F4 /* Assets.xcassets */; };
+		3F8C80FD2A864A7A00C941F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C80FC2A864A7A00C941F4 /* Preview Assets.xcassets */; };
+		3F8C81072A864A7A00C941F4 /* veganCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C81062A864A7A00C941F4 /* veganCalcTests.swift */; };
+		3F8C81112A864A7A00C941F4 /* veganCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C81102A864A7A00C941F4 /* veganCalcUITests.swift */; };
+		3F8C81132A864A7A00C941F4 /* veganCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C81122A864A7A00C941F4 /* veganCalcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8C81032A864A7A00C941F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8C80EA2A864A7900C941F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8C80F12A864A7900C941F4;
+			remoteInfo = veganCalc;
+		};
+		3F8C810D2A864A7A00C941F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8C80EA2A864A7900C941F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8C80F12A864A7900C941F4;
+			remoteInfo = veganCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8C80F22A864A7900C941F4 /* veganCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veganCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8C80F52A864A7900C941F4 /* veganCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veganCalcApp.swift; sourceTree = "<group>"; };
+		3F8C80F72A864A7900C941F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F8C80F92A864A7A00C941F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8C80FC2A864A7A00C941F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F8C81022A864A7A00C941F4 /* veganCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veganCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8C81062A864A7A00C941F4 /* veganCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veganCalcTests.swift; sourceTree = "<group>"; };
+		3F8C810C2A864A7A00C941F4 /* veganCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veganCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8C81102A864A7A00C941F4 /* veganCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veganCalcUITests.swift; sourceTree = "<group>"; };
+		3F8C81122A864A7A00C941F4 /* veganCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veganCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8C80EF2A864A7900C941F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8C80FF2A864A7A00C941F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8C81092A864A7A00C941F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8C80E92A864A7900C941F4 = {
+			isa = PBXGroup;
+			children = (
+				3F8C80F42A864A7900C941F4 /* veganCalc */,
+				3F8C81052A864A7A00C941F4 /* veganCalcTests */,
+				3F8C810F2A864A7A00C941F4 /* veganCalcUITests */,
+				3F8C80F32A864A7900C941F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8C80F32A864A7900C941F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C80F22A864A7900C941F4 /* veganCalc.app */,
+				3F8C81022A864A7A00C941F4 /* veganCalcTests.xctest */,
+				3F8C810C2A864A7A00C941F4 /* veganCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8C80F42A864A7900C941F4 /* veganCalc */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C80F52A864A7900C941F4 /* veganCalcApp.swift */,
+				3F8C80F72A864A7900C941F4 /* ContentView.swift */,
+				3F8C80F92A864A7A00C941F4 /* Assets.xcassets */,
+				3F8C80FB2A864A7A00C941F4 /* Preview Content */,
+			);
+			path = veganCalc;
+			sourceTree = "<group>";
+		};
+		3F8C80FB2A864A7A00C941F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C80FC2A864A7A00C941F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F8C81052A864A7A00C941F4 /* veganCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C81062A864A7A00C941F4 /* veganCalcTests.swift */,
+			);
+			path = veganCalcTests;
+			sourceTree = "<group>";
+		};
+		3F8C810F2A864A7A00C941F4 /* veganCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C81102A864A7A00C941F4 /* veganCalcUITests.swift */,
+				3F8C81122A864A7A00C941F4 /* veganCalcUITestsLaunchTests.swift */,
+			);
+			path = veganCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8C80F12A864A7900C941F4 /* veganCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8C81162A864A7A00C941F4 /* Build configuration list for PBXNativeTarget "veganCalc" */;
+			buildPhases = (
+				3F8C80EE2A864A7900C941F4 /* Sources */,
+				3F8C80EF2A864A7900C941F4 /* Frameworks */,
+				3F8C80F02A864A7900C941F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = veganCalc;
+			productName = veganCalc;
+			productReference = 3F8C80F22A864A7900C941F4 /* veganCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8C81012A864A7A00C941F4 /* veganCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8C81192A864A7A00C941F4 /* Build configuration list for PBXNativeTarget "veganCalcTests" */;
+			buildPhases = (
+				3F8C80FE2A864A7A00C941F4 /* Sources */,
+				3F8C80FF2A864A7A00C941F4 /* Frameworks */,
+				3F8C81002A864A7A00C941F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8C81042A864A7A00C941F4 /* PBXTargetDependency */,
+			);
+			name = veganCalcTests;
+			productName = veganCalcTests;
+			productReference = 3F8C81022A864A7A00C941F4 /* veganCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8C810B2A864A7A00C941F4 /* veganCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8C811C2A864A7A00C941F4 /* Build configuration list for PBXNativeTarget "veganCalcUITests" */;
+			buildPhases = (
+				3F8C81082A864A7A00C941F4 /* Sources */,
+				3F8C81092A864A7A00C941F4 /* Frameworks */,
+				3F8C810A2A864A7A00C941F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8C810E2A864A7A00C941F4 /* PBXTargetDependency */,
+			);
+			name = veganCalcUITests;
+			productName = veganCalcUITests;
+			productReference = 3F8C810C2A864A7A00C941F4 /* veganCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8C80EA2A864A7900C941F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3F8C80F12A864A7900C941F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3F8C81012A864A7A00C941F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3F8C80F12A864A7900C941F4;
+					};
+					3F8C810B2A864A7A00C941F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3F8C80F12A864A7900C941F4;
+					};
+				};
+			};
+			buildConfigurationList = 3F8C80ED2A864A7900C941F4 /* Build configuration list for PBXProject "veganCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8C80E92A864A7900C941F4;
+			productRefGroup = 3F8C80F32A864A7900C941F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8C80F12A864A7900C941F4 /* veganCalc */,
+				3F8C81012A864A7A00C941F4 /* veganCalcTests */,
+				3F8C810B2A864A7A00C941F4 /* veganCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8C80F02A864A7900C941F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8C80FD2A864A7A00C941F4 /* Preview Assets.xcassets in Resources */,
+				3F8C80FA2A864A7A00C941F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8C81002A864A7A00C941F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8C810A2A864A7A00C941F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8C80EE2A864A7900C941F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8C80F82A864A7900C941F4 /* ContentView.swift in Sources */,
+				3F8C80F62A864A7900C941F4 /* veganCalcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8C80FE2A864A7A00C941F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8C81072A864A7A00C941F4 /* veganCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8C81082A864A7A00C941F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8C81112A864A7A00C941F4 /* veganCalcUITests.swift in Sources */,
+				3F8C81132A864A7A00C941F4 /* veganCalcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8C81042A864A7A00C941F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8C80F12A864A7900C941F4 /* veganCalc */;
+			targetProxy = 3F8C81032A864A7A00C941F4 /* PBXContainerItemProxy */;
+		};
+		3F8C810E2A864A7A00C941F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8C80F12A864A7900C941F4 /* veganCalc */;
+			targetProxy = 3F8C810D2A864A7A00C941F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F8C81142A864A7A00C941F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8C81152A864A7A00C941F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8C81172A864A7A00C941F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"veganCalc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.veganCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8C81182A864A7A00C941F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"veganCalc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.veganCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8C811A2A864A7A00C941F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.veganCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veganCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/veganCalc";
+			};
+			name = Debug;
+		};
+		3F8C811B2A864A7A00C941F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.veganCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veganCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/veganCalc";
+			};
+			name = Release;
+		};
+		3F8C811D2A864A7A00C941F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.veganCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veganCalc;
+			};
+			name = Debug;
+		};
+		3F8C811E2A864A7A00C941F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.veganCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veganCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8C80ED2A864A7900C941F4 /* Build configuration list for PBXProject "veganCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8C81142A864A7A00C941F4 /* Debug */,
+				3F8C81152A864A7A00C941F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8C81162A864A7A00C941F4 /* Build configuration list for PBXNativeTarget "veganCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8C81172A864A7A00C941F4 /* Debug */,
+				3F8C81182A864A7A00C941F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8C81192A864A7A00C941F4 /* Build configuration list for PBXNativeTarget "veganCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8C811A2A864A7A00C941F4 /* Debug */,
+				3F8C811B2A864A7A00C941F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8C811C2A864A7A00C941F4 /* Build configuration list for PBXNativeTarget "veganCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8C811D2A864A7A00C941F4 /* Debug */,
+				3F8C811E2A864A7A00C941F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8C80EA2A864A7900C941F4 /* Project object */;
+}
