@@ -1,6 +1,8 @@
 # VegancalcSwift
 vegan calculator for ios
 
+![Alt Text](https://github.com/franasal/VegancalcSwift/blob/main/demoVeganCalc.gif)
+
 The **Vegan Impact App** is a simple iOS application that helps users track and visualize the positive environmental impact of their vegan lifestyle. Users can select the date they started their vegan journey, and the app calculates and displays the environmental benefits achieved since that date.
 
 ## Features
