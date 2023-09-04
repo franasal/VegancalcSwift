@@ -1,23 +1,18 @@
-//
-//  ContentView.swift
-//  veganCalc
-//
-//  Created by Student on 11.08.23.
-//
-
+// ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Spacer()
+            VeganDayButton()
+            Spacer()
         }
-        .padding()
     }
+        
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
